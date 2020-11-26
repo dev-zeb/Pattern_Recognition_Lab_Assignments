@@ -1,0 +1,73 @@
+# Kmer
+1: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --kmer 1 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_kmr1.csv
+2: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --kmer 2 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_kmr2.csv
+3: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --kmer 3 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_kmr3.csv
+4: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --kmer 4 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_kmr4.csv
+1: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --kmer 1 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_kmr1.csv
+2: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --kmer 2 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_kmr2.csv
+3: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --kmer 3 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_kmr3.csv
+4: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --kmer 4 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_kmr4.csv
+1: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --kmer 1 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_kmr1.csv
+2: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --kmer 2 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_kmr2.csv
+3: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --kmer 3 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_kmr3.csv
+4: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --kmer 4 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_kmr4.csv
+1: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --kmer 1 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_kmr1.csv
+2: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --kmer 2 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_kmr2.csv
+3: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --kmer 3 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_kmr3.csv
+4: python descnucleotide/Kmer.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --kmer 4 --normalize --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_kmr4.csv
+# ENAC
+5:  python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --slwindow 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_ENAC5.csv
+10: python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --slwindow 10 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_ENAC10.csv
+5:  python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --slwindow 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_ENAC5.csv
+10: python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --slwindow 10 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_ENAC10.csv
+5:  python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --slwindow 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_ENAC5.csv
+10: python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --slwindow 10 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_ENAC10.csv
+5:  python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --slwindow 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_ENAC5.csv
+10: python descnucleotide/ENAC.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --slwindow 10 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_ENAC10.csv
+# Binary
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method binary --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_binary.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method binary --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_binary.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method binary --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_binary.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method binary --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_binary.csv
+# CKSNAP
+1: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --gap 1 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_CKSNAP1.csv
+3: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --gap 3 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_CKSNAP3.csv
+5: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --gap 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_CKSNAP5.csv
+7: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --gap 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_CKSNAP7.csv
+1: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --gap 1 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_CKSNAP1.csv
+3: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --gap 3 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_CKSNAP3.csv
+5: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --gap 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_CKSNAP5.csv
+7: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --gap 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_CKSNAP7.csv
+1: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --gap 1 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_CKSNAP1.csv
+3: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --gap 3 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_CKSNAP3.csv
+5: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --gap 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_CKSNAP5.csv
+7: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --gap 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_CKSNAP7.csv
+1: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --gap 1 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_CKSNAP1.csv
+3: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --gap 3 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_CKSNAP3.csv
+5: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --gap 5 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_CKSNAP5.csv
+7: python descnucleotide/CKSNAP.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --gap 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_CKSNAP7.csv
+# ANF
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method ANF --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_ANF.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method ANF --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_ANF.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method ANF --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_ANF.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method ANF --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_ANF.csv
+# EIIP
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method EIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_EIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method EIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_EIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method EIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_EIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method EIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_EIIP.csv
+# PseEIIP
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method PseEIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_PseEIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method PseEIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_PseEIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method PseEIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_PseEIIP.csv
+1: python iLearn-nucleotide-basic.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method PseEIIP --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_PseEIIP.csv
+# DAC
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method DAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_DAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method DAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_DAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method DAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_DAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method DAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_DAC.csv
+# TAC
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_train_special.txt --method TAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_train_TAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\NGpick_test_special.txt --method TAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\NGpick_test_TAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_train_special.txt --method TAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_train_TAC.csv
+1: python iLearn-nucleotide-acc.py --file D:\\A1\\Dataset\\Datasets_2\\PGpick_test_special.txt --method TAC --type DNA --lag 7 --format csv --out D:\\A1\\Dataset\\Datasets_2\\PGpick_test_TAC.csv
